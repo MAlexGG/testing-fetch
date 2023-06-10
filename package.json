@@ -16,8 +16,5 @@
     },
     "jest": {
         "transform": {}
-    },
-    "devDependencies": {
-        "nock": "^13.3.1"
     }
 }
