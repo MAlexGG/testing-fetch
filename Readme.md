@@ -13,7 +13,7 @@ This is a simple responsive app that calls the API https://uselessfacts.jsph.pl 
 ### UI Design
 It was design in Figma after the functionality was ready.
 
-
+![curious-facts](https://github.com/MAlexGG/testing-fetch/assets/73828751/3a3be82d-6a89-44fb-aa84-bd35f8e30af4)
 
 ## Technologies
 It was developed with javascript.
