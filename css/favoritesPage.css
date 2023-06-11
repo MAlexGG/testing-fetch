@@ -22,6 +22,16 @@ h2 {
     margin-top: 20px;
 }
 
+h3 {
+    font-family: var(--font-main);
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: var(--color-secondary);
+}
+
 #fav-facts {
     display: flex;
     flex-direction: column;

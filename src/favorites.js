@@ -6,16 +6,20 @@ export function addFavorite(data){
 };
 
 export function printFavorites(){
-    for (const key in favoritesList) {
-        if (favoritesList) {
-            console.log(favoritesList[key])
+    if (favoritesList) {
+        for (const key in favoritesList) {
             const favFacts = document.getElementById('fav-facts');
             favFacts.innerHTML += 
             `<div class="ctFav">
                 <img src="../assets/star-fill.svg" alt="favorite fact"/>
                 <p>${favoritesList[key]}</p>
             </div>`
-        };
+        }; 
+    };
+    if(favoritesList.length == 0){
+        const favFacts = document.getElementById('fav-facts');
+        favFacts.innerHTML += 
+        `<h3>You don't have any favorite fact saved, go back and add at least one</h3>`
     };
 };
 
