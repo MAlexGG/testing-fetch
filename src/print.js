@@ -1,8 +1,3 @@
-import { favoritesList } from "./favorites.js";
-
-console.log(favoritesList);
-
-
 export async function print(data){
     const facts = document.getElementById('facts');
     facts.innerHTML = await data;

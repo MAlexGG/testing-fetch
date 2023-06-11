@@ -1,7 +1,7 @@
 .favorites-page {
     display: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background-color: var(--color-main);
     position: absolute;
@@ -9,6 +9,42 @@
     left: 0px;
     width: 100vw;
     height: 100vh;
-    padding: 10%;
+    padding: 5%;
     z-index: 1;
+}
+
+h2 {
+    font-family: var(--font-big);
+    font-size: 40px;
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#fav-facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.ctFav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.ctFav p {
+    font-family: var(--font-main);
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.ctFav img {
+    width: 30px;
+    height: auto;
 }
