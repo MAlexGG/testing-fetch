@@ -1,5 +1,5 @@
 import { load } from "../helpers/helpers";
-import { addFavorite, printFavorites } from "../src/favorites";
+import { addFavorite, deleteFavorite, printFavorites } from "../src/favorites";
 import assert from "node:assert";
 
 describe('print llamando a JSDOM', () => {
@@ -31,5 +31,13 @@ describe('print llamando a JSDOM', () => {
         const element = document.getElementById("fav-facts");
 
         assert.equal(element.innerHTML, "<h3>You don't have any favorite fact saved, go back and add at least one</h3>");   
+    });
+
+    test('función borrar un favorito', () => {
+        const array = ["primer hecho", "segundo hecho"];
+
+        deleteFavorite(array);
+
+        assert.deepStrictEqual(array, ["primer hecho"])
     });
 });

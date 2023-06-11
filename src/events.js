@@ -19,7 +19,7 @@ startStroke.addEventListener('click', function(){
 const startFill = document.getElementById('fav-fill');
 startFill.addEventListener('click', function(){
     emptyStar();
-    deleteFavorite();
+    deleteFavorite(favoritesList);
 });
 
 const openMenu = document.getElementById('nav');

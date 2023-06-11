@@ -28,9 +28,9 @@ export function cleanFavorites(){
     favFacts.innerHTML = "";
 }
 
-export function deleteFavorite(){
-    favoritesList.pop();
-    return favoritesList;
+export function deleteFavorite(favorites){
+    favorites.pop();
+    return favorites;
 }
 
 
