@@ -13,7 +13,7 @@ This is a single page responsive application that calls the API https://uselessf
 ### UI Design
 It was design in Figma after the functionality was ready.
 
-![curious-facts](https://github.com/MAlexGG/testing-fetch/assets/73828751/ab1b7e0a-8133-44b4-87c1-4e6d2a0f5e22)
+![curious-facts](https://github.com/MAlexGG/testing-fetch/assets/73828751/f2ac6d8d-6af0-4bd6-8828-7fea40c6419a)
 
 ## Technologies
 It was developed with javascript.
