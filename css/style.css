@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Overlock&display=swap');
+@import "./favoritesPage.css";
 :root {
     --color-main: #19F1AD;
     --color-secondary: #7462e0;
