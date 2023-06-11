@@ -30,11 +30,15 @@ export function emptyStar(){
 };
 
 export function openFav(){
-    const menu = document.querySelector('.favorites-page');
-    menu.style.display = "flex";
+    const favPage = document.querySelector('.favorites-page');
+    favPage.style.display = "flex";
+    const homePage = document.querySelector('.home-page');
+    homePage.style.display = "none";
 }
 
 export function closeFav(){
-    const menu = document.querySelector('.favorites-page');
-    menu.style.display = "none";
+    const favPage = document.querySelector('.favorites-page');
+    favPage.style.display = "none";
+    const homePage = document.querySelector('.home-page');
+    homePage.style.display = "flex";
 }

@@ -21,7 +21,12 @@ export function printFavorites(){
 
 export function cleanFavorites(){
     const favFacts = document.getElementById('fav-facts');
-            favFacts.innerHTML = "";
+    favFacts.innerHTML = "";
+}
+
+export function deleteFavorite(){
+    favoritesList.pop();
+    return favoritesList;
 }
 
 
