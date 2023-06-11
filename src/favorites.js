@@ -5,18 +5,18 @@ export function addFavorite(data){
     return favoritesList;
 };
 
-export function printFavorites(){
-    if (favoritesList) {
-        for (const key in favoritesList) {
+export function printFavorites(favorites){
+    if (favorites) {
+        for (const key in favorites) {
             const favFacts = document.getElementById('fav-facts');
             favFacts.innerHTML += 
             `<div class="ctFav">
                 <img src="../assets/star-fill.svg" alt="favorite fact"/>
-                <p>${favoritesList[key]}</p>
+                <p class="fact">${favorites[key]}</p>
             </div>`
         }; 
     };
-    if(favoritesList.length == 0){
+    if(favorites.length == 0){
         const favFacts = document.getElementById('fav-facts');
         favFacts.innerHTML += 
         `<h3>You don't have any favorite fact saved, go back and add at least one</h3>`

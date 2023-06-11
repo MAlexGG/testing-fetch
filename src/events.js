@@ -1,5 +1,5 @@
 import { getApiData } from "./api.js";
-import { addFavorite, cleanFavorites, deleteFavorite, printFavorites } from "./favorites.js";
+import { addFavorite, cleanFavorites, deleteFavorite, favoritesList, printFavorites } from "./favorites.js";
 import { appearStar, print, fillStar, emptyStar, disapearStar, openFav, closeFav } from "./print.js";
 
 const button = document.getElementById('button');
@@ -25,7 +25,7 @@ startFill.addEventListener('click', function(){
 const openMenu = document.getElementById('nav');
 openMenu.addEventListener('click', function(){
     openFav();
-    printFavorites();
+    printFavorites(favoritesList);
 });
 
 const closeMenu = document.getElementById('return');
