@@ -8,12 +8,12 @@
 ***
 ## General Info
 
-This is a simple responsive app that calls the API https://uselessfacts.jsph.pl and gets random curious facts that prints on screen. It's tested with jest,globals for mocking and jsdom. 
+This is a single page responsive application that calls the API https://uselessfacts.jsph.pl and gets random curious facts that prints on screen. If you want you can save your favorites facts and also you can delete them. It's tested with jest, globals for mocking and jsdom. 
 
 ### UI Design
 It was design in Figma after the functionality was ready.
 
-![curious-facts](https://github.com/MAlexGG/testing-fetch/assets/73828751/3a3be82d-6a89-44fb-aa84-bd35f8e30af4)
+![curious-facts](https://github.com/MAlexGG/testing-fetch/assets/73828751/ab1b7e0a-8133-44b4-87c1-4e6d2a0f5e22)
 
 ## Technologies
 It was developed with javascript.
